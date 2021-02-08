@@ -59,3 +59,42 @@ img {
 #why h3, #why p{
   margin: 10px 0;
 }
+
+@media all and (max-width:767px){
+
+  #steps .row>.left h3,
+  #steps .row>.central h3,
+  #steps .row>.right h3{
+    color: white;
+  }
+
+  #steps .row>.left p,
+  #steps .row>.central p,
+  #steps .row>.right p{
+    color: white;
+  }
+
+  #why .row .first h3,
+  #why .row .second h3,
+  #why .row .third h3{
+    color: white;
+  }
+
+  #why .row .first p,
+  #why .row .second p,
+  #why .row .third p{
+    color: white;
+  }
+}
+
+@media all and (min-width:767px) and (max-width:991px){
+
+  #steps, #why {
+    background-color: white;
+  }
+
+  #steps .right{
+    margin-top: 20px;
+  }
+
+}
