@@ -7,9 +7,13 @@
 
 /* regole framework */
 .container{
-  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
 
+}
+
+.containerf{
+  width: 100%;
 }
 
 .row::after{
@@ -22,6 +26,7 @@
 
 [class*="col-"]{
   float: left;
+  text-align: center;
 
 }
 
