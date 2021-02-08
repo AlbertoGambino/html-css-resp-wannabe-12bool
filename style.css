@@ -72,6 +72,7 @@ img {
   #steps .row>.central p,
   #steps .row>.right p{
     color: white;
+    margin-bottom: 10px;
   }
 
   #why .row .first h3,
